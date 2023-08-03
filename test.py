@@ -1,4 +1,4 @@
-from typecheck import check_args, DetailedTypeError, check_args_for_class
+from check import check_args, DetailedTypeError, check_args_for_class
 from typing import (
     Any,
     Dict,
