@@ -1,4 +1,4 @@
-# typecheck
+# parmscheck
 
 #### 介绍
 支持python函数类型检查的装饰器，提供了一种方便的方式来对函数的参数进行运行时类型检查。通过使用这个装饰器，开发者可以轻松确保函数的输入参数是否为预期的类型。
@@ -11,14 +11,14 @@
 #### 安装教程
 
 你可以使用Python包管理工具pip来安装这个装饰器库：
-`pip install typecheck`
+`pip install parmscheck`
 
 
 #### 使用说明
 
 
 ```
-from typecheck import check_args,check_args_for_class
+from parmscheck import check_args,check_args_for_class
 
 T = TypeVar('T', int, float, Dict[int, str])
 P = TypeVar('P')
