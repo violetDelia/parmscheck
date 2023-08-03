@@ -7,7 +7,7 @@ setup(
     author_email='1733535832@qq.com',
     description='Decorator for type checking arguments',
     packages=[],
-    url='https://github.com/violetDelia/typecheck',
+    url='https://github.com/violetDelia/parmscheck',
     install_requires=[
         'inspect',
         'typing',
